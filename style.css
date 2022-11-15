@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  font-family: "Hind Siliguri";
+}
+.wrapper {
+  width: 1600px;
+}
+.cameras__content {
+  width: 71.25%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.cameras__items {
+  width: 555px;
+  background: linear-gradient(257.26deg, #008bf0 -13.2%, #d943c9 130.95%);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+.some__text {
+  margin: 75px 0 75px 35px;
+  z-index: 5;
+  width: 257px;
+}
+.items__title {
+  font-weight: 500;
+  font-size: 16px;
+  opacity: 0.6;
+  color: #f4f9fc;
+  margin: 0 0 5px 0;
+}
+.items__text {
+  color: #f4f9fc;
+  font-weight: 600;
+  font-size: 31px;
+}
+.cameras__img {
+  width: 275px;
+  height: 231px;
+}
+#camera__png {
+  width: 265px;
+  height: 230px;
+}
+.items__btn{
+  font-weight: 500;
+  font-size: 14px;
+  background: none;
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  color: #F4F9FC;
+  cursor: pointer;
+}
